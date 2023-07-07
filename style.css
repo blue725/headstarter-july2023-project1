@@ -1,0 +1,40 @@
+body{
+    background-color: #e1f4f8;
+    text-align: center;
+}
+
+#homeScreenTitle{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-parent {
+    display: flex;
+}
+  
+.jc-center {
+    justify-content: center;
+}
+
+button{
+    display: inline-block;
+    background-color: #007bff;
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;  
+    text-align: center;
+    border: 4px double #cccccc; /*Rounding borders and increase text size*/
+    border-radius: 10px;
+    font-size: 28px;
+    cursor: pointer; /*Adds Pointer Effect with a Margin of 5px*/
+    margin: 5px;
+    -webkit-transition: all 0.5s; /*Adds transition effect to create a pleasant change of color*/
+    transition: all 0.5s;
+}
+
+button:hover{
+    background-color: #008080;
+}
+
+
