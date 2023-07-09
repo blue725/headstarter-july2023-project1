@@ -12,7 +12,7 @@
 
     <!-- Script for our application  -->
     <link rel="stylesheet" href="style.css"/>
-    <script src="resumeScript.js"> </script>
+    <!-- <script src="resumeScript.js"> </script> Only used for Sumbission Page-->
 
   </head>
   <body>
@@ -22,13 +22,13 @@
       </div>
     </nav>
 
-    <h1 id="homeScreenTitle">Please Select a Role</h1>
+    <h1 id="homeScreenTitle">Please Select an Option to Proceed</h1>
     <div class="flex-parent jc-center">
-        <button class="btn-1" type="submit" href="./submission.html">Resume Submission</button>
+        <button onclick="document.location='./submission.html'" class="btn-1" type="submit">Resume Submission</button>
       </div>
       
       <div class="flex-parent jc-center">
-        <button class="btn-2" type="submit" href='./keyword.html'>Resume Keyword Finder</button>
+        <button onclick="document.location='./keyword.html'" class="btn-2" type="submit">Resume Keyword Finder</button>
       </div>
   </body>
 
