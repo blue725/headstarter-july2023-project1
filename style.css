@@ -26,6 +26,14 @@ body{
     justify-content: center;
 }
 
+.btn-3{
+    transform: translate(0, 500%);
+}
+
+.btn-4{
+    transform: translate(0, -100%);
+}
+
 button{
     display: inline-block;
     background-color: #007bff;
@@ -168,7 +176,7 @@ button:hover{
 /*CSS for Resume Keyword Parsing Page*/
 .search{
     box-sizing: border-box;
-    margin: 0;
+    margin: auto;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -177,6 +185,8 @@ button:hover{
     position: relative;
     width: 60px;
     height: 60px;
+    top: 50%;
+    transform: translate(0, 500%);
     background: white;
     border-radius: 60px;
     -webkit-transition: all 0.5s; 
@@ -276,4 +286,14 @@ button:hover{
     height: 15px;
     background: #999;
     transform: rotate(315deg);
+}
+
+.parsarTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
