@@ -36,7 +36,9 @@ resumes = []
 directory = 'resumes_pdf'
 for filename in os.listdir(directory):
     resumes.append(directory+"/"+filename)  
-processed_resumes = sortbyfrequency(resumes, "EXPERIENCE")   
+    
+  #Change keyword here in the second variable 
+processed_resumes = sortbyfrequency(resumes, "React")   
 
 all_files = storage.list_files()
 filtered_resumes = {}
